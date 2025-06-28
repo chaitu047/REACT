@@ -1,0 +1,28 @@
+.app-container {
+    display: grid;
+    place-items: center;
+    gap: 3rem;
+
+    .input-holder{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .list-item-holder {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        .list-item {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+        }
+    }
+}
