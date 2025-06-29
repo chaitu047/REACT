@@ -1,10 +1,12 @@
 import React, {useContext} from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { AuthContext } from "../../HOC/Auth/AuthContext"
+import { ThemeContext } from '../../HOC/ToggleTheme/ThemeContext'
 import './index.css'
 
 export default function Navbar() {
     const { isLoggedIn, logout } = useContext(AuthContext);
+    const { toggleTheme } = useContext(ThemeContext);
     const navigate = useNavigate();
 
     const handleLogout = () => {
@@ -17,6 +19,9 @@ export default function Navbar() {
             <span>
                 KC
             </span>
+            <button onClick={toggleTheme}>
+                ToggleTheme
+            </button>
             <Link to='/'>
             Home
             </Link>

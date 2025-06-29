@@ -25,6 +25,11 @@ export default function AppMenu() {
                                         Form
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link to='/search'>
+                                        Search
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     ) : null

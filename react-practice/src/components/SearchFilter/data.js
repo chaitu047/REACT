@@ -1,0 +1,22 @@
+export const inputData = [
+  "How are you?",
+  "Nice to meet you.",
+  "Thank you very much.",
+  "You're welcome.",
+  "Have a great day!",
+  "Excuse me.",
+  "I'm sorry.",
+  "What time is it?",
+  "Where are you from?",
+  "Can you help me?",
+  "I don't understand.",
+  "Please speak slowly.",
+  "How much does it cost?",
+  "I would like some water.",
+  "Where is the restroom?",
+  "See you later.",
+  "Good morning.",
+  "Good night.",
+  "What do you do?",
+  "I'm learning English."
+]

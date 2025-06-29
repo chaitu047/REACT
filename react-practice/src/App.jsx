@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import routes from './routes';
 import Navbar from './components/Navbar/index.jsx'
 import ProtectedRoute from './components/ProtectedRoute/index.jsx';
+import './App.css';
 
 function renderRoutes(routesArray) {
     return routesArray.map((route, index) => (

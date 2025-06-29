@@ -5,6 +5,7 @@ const Dashboard = lazy(()=>import('./Pages/Dashboard'))
 const FormApp = lazy(()=>import('./components/FormApp'))
 const About = lazy(()=>import('./Pages/About'));
 const Login = lazy(()=>import('./Pages/Login'));
+const SearchFilter = lazy(()=>import('./components/SearchFilter/index'))
 
 const routes = [
     {
@@ -21,6 +22,11 @@ const routes = [
                 path:'/form',
                 element: FormApp,
                 name: 'Form'
+            },
+            {
+                path:'/search',
+                element: SearchFilter,
+                name: 'SearchFilter'
             }
         ]
     },

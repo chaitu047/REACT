@@ -1,0 +1,15 @@
+:root[data-theme='light'] {
+    --bg: #ffffff;
+    --text: #0000000;
+}
+
+:root[data-theme='dark'] {
+    --bg: #0000000;
+    --text: #ffffff;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    transition: all 0.3s ease;
+}
