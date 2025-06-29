@@ -35,6 +35,11 @@ export default function AppMenu() {
                                         Modal
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link to='/pagination'>
+                                        Pagination
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     ) : null

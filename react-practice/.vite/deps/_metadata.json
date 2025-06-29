@@ -1,43 +1,52 @@
 {
-  "hash": "53d62aad",
+  "hash": "60692255",
   "configHash": "2ef7c771",
-  "lockfileHash": "17129fd9",
-  "browserHash": "fe3519a9",
+  "lockfileHash": "dfaa279b",
+  "browserHash": "f0192dbb",
   "optimized": {
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "2fe1d09b",
+      "fileHash": "feb7c324",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "35e1aa57",
+      "fileHash": "a34d2317",
       "needsInterop": true
     },
     "react-router-dom": {
       "src": "../../node_modules/react-router-dom/dist/index.mjs",
       "file": "react-router-dom.js",
-      "fileHash": "f73f199d",
+      "fileHash": "1974731a",
       "needsInterop": false
     },
     "react-router": {
       "src": "../../node_modules/react-router/dist/development/index.mjs",
       "file": "react-router.js",
-      "fileHash": "03097933",
+      "fileHash": "8149b1ac",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "f60ddb39",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-UKXWTTCV": {
-      "file": "chunk-UKXWTTCV.js"
+    "chunk-5HNGYYSW": {
+      "file": "chunk-5HNGYYSW.js"
     },
-    "chunk-QOVZGY7A": {
-      "file": "chunk-QOVZGY7A.js"
+    "chunk-JPNFTFT5": {
+      "file": "chunk-JPNFTFT5.js"
     },
-    "chunk-5WQJO2FO": {
-      "file": "chunk-5WQJO2FO.js"
+    "chunk-TVFQMRVC": {
+      "file": "chunk-TVFQMRVC.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
     }
   }
 }
