@@ -30,6 +30,11 @@ export default function AppMenu() {
                                         Search
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link to='/modal'>
+                                        Modal
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     ) : null

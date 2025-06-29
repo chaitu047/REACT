@@ -1,11 +1,13 @@
 :root[data-theme='light'] {
     --bg: #ffffff;
     --text: #0000000;
+    position: relative;
 }
 
 :root[data-theme='dark'] {
     --bg: #0000000;
     --text: #ffffff;
+    position: relative;
 }
 
 body {

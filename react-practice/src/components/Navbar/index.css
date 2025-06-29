@@ -1,9 +1,16 @@
 .nav-bar {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
+
+    position: relative; /* Add this */
+    z-index: 100;       /* Lower than modal's z-index */
+    background-color: white; /* Optional: to prevent transparency bleed */
+    padding: 1rem; /* Optional: spacing */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: subtle shadow */
 }
+
 
 .list-container {
     display: flex;
