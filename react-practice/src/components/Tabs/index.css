@@ -1,0 +1,21 @@
+.tabs {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs-list {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.tab-item {
+    color: #000000;
+}
+
+.tab-panel {
+    display: block;
+    height: 50vh;
+    width: 50vw;
+    margin: auto;
+}

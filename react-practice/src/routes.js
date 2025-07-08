@@ -7,6 +7,7 @@ const About = lazy(()=>import('./Pages/About'));
 const Login = lazy(()=>import('./Pages/Login'));
 const SearchFilter = lazy(()=>import('./components/SearchFilter/index'))
 const Pagination = lazy(()=>import('./components/Pagination/index'))
+const Tabs = lazy(()=>import('./components/Tabs/index'))
 
 const routes = [
     {
@@ -33,6 +34,11 @@ const routes = [
                 path:'/pagination',
                 element: Pagination,
                 name: 'Pagination'
+            },
+            {
+                path:'/tabs',
+                element: Tabs,
+                name: 'Tabs'
             }
         ]
     },

@@ -40,6 +40,11 @@ export default function AppMenu() {
                                         Pagination
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link to='/tabs'>
+                                        Tabs
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     ) : null
