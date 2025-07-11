@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 100vh;
+    width: 100vw;
+}
+
+.list-item {
+    height: 10%;
+    width: 80%;
+    padding: 2%;
+}

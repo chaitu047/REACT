@@ -8,6 +8,7 @@ const Login = lazy(()=>import('./Pages/Login'));
 const SearchFilter = lazy(()=>import('./components/SearchFilter/index'))
 const Pagination = lazy(()=>import('./components/Pagination/index'))
 const Tabs = lazy(()=>import('./components/Tabs/index'))
+const ScrollingPagination = lazy(()=>import('./components/ScrollingPagination/index'))
 
 const routes = [
     {
@@ -39,6 +40,11 @@ const routes = [
                 path:'/tabs',
                 element: Tabs,
                 name: 'Tabs'
+            },
+            {
+                path:'/scrollingpagination',
+                element: ScrollingPagination,
+                name: 'ScrollingPagination'
             }
         ]
     },

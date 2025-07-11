@@ -45,6 +45,11 @@ export default function AppMenu() {
                                         Tabs
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link to='/scrollingpagination'>
+                                        ScrollingPagination
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     ) : null
