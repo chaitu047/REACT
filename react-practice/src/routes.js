@@ -9,6 +9,7 @@ const SearchFilter = lazy(()=>import('./components/SearchFilter/index'))
 const Pagination = lazy(()=>import('./components/Pagination/index'))
 const Tabs = lazy(()=>import('./components/Tabs/index'))
 const ScrollingPagination = lazy(()=>import('./components/ScrollingPagination/index'))
+const DragNDrop = lazy(()=>import('./components/DragNDrop/index'))
 
 const routes = [
     {
@@ -45,6 +46,11 @@ const routes = [
                 path:'/scrollingpagination',
                 element: ScrollingPagination,
                 name: 'ScrollingPagination'
+            },
+            {
+                path:'/dragndrop',
+                element: DragNDrop,
+                name: 'DragNDrop'
             }
         ]
     },

@@ -50,6 +50,11 @@ export default function AppMenu() {
                                         ScrollingPagination
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link to='/dragndrop'>
+                                        DragNDrop
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     ) : null
