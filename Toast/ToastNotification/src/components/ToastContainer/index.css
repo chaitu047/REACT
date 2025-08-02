@@ -1,0 +1,41 @@
+.toast-container {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    width: 16rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.toast-container.success {
+    background-color: #0f942e;
+    border-color: #0f942e;
+}
+
+.toast-container.error {
+    background-color: #ed0418;
+    border-color: #ed0418;
+}
+
+.toast-container.warning {
+    background-color: #fff3cd;
+    border-color: #fff3cd;
+    color: #856404; /* set readable text color */
+}
+
+.toast-content {
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toast-close-btn {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
