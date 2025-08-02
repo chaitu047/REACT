@@ -1,0 +1,14 @@
+.otp-container {
+    display: flex;
+    flex-direction: row;
+    gap:1.5rem;
+    align-items: center;
+}
+
+.otp-field {
+    height: 1rem;
+    width: 1rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
