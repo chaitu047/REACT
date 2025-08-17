@@ -1,0 +1,24 @@
+{
+  "faq": [
+    {
+      "question": "What is an accordion UI component?",
+      "answer": "An accordion is a vertically stacked list of items that can expand to reveal additional content or collapse to hide it."
+    },
+    {
+      "question": "When should I use an accordion?",
+      "answer": "Accordions are best used for FAQs, settings panels, or situations where you want to organize content into expandable sections."
+    },
+    {
+      "question": "How does an accordion improve user experience?",
+      "answer": "It helps reduce clutter by only showing the most relevant information and allowing users to expand sections when they need more details."
+    },
+    {
+      "question": "Can I style my accordion?",
+      "answer": "Yes, you can customize the styles using CSS or a UI framework to match your application's look and feel."
+    },
+    {
+      "question": "Is an accordion mobile-friendly?",
+      "answer": "Yes, accordions are commonly used on mobile devices because they save space and keep content organized."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+.faq-container{
+    position: relative;
+    border: 2px solid black;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.show{
+    position: absolute;
+    right: 1rem;
+    top: 0rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
