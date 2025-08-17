@@ -6,17 +6,22 @@ function App() {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    if (progress >= 100) {
-      return;
-    }
-    const intervalId = setInterval(() => {
-      setProgress((prev) => prev + 1);
+    const interval = setInterval(() => {
+      setProgress((prev) => {
+        if (prev < 100) {
+          setProgress(prev + 1);
+        }
+        else {
+          clearInterval(interval);
+        }
+      })
+      return () => {
+        if (interval) {
+          clearInterval(interval);
+        }
+      }
     }, 1000);
-
-    return () => {
-      clearInterval(intervalId);
-    }
-  }, [progress])
+  }, [])
 
   return (
     <div className="App">
