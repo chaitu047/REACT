@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1;
+}
+
+.date-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-date{
+    width: 4rem;
+    height: 3rem;
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
